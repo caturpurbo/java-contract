@@ -17,7 +17,7 @@ import com.comfozen.contractmanagement.service.ContractService;
 
 @RestController
 @RequestMapping("/api/contracts")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://react-web-ochre.vercel.app")
 public class ContractController {
 
   private final ContractService contractService;
